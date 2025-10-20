@@ -15,7 +15,7 @@ class PackageTrainDataset(Dataset):
         depth_dir,
         ply_dir,
         roi,
-        num_points=32768,
+        num_points=1024,
         rgb_transform=None,
         depth_transform=None,
         ply_transform=False,
